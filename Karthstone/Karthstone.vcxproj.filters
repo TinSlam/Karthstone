@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Mewtle">
+      <UniqueIdentifier>{F324E3C2-DFC6-0D99-C881-21EDB4C294E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mewtle\precompiledHeaders">
+      <UniqueIdentifier>{B2914110-1E54-759A-6704-0427D3054E78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Concepts">
+      <UniqueIdentifier>{BB98B8E9-A7FB-478E-5081-80443CC31311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entities">
+      <UniqueIdentifier>{81A6B583-6D09-4528-168F-7DDE02D110AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entities\Buildings">
+      <UniqueIdentifier>{D1A42D11-BD9E-5663-A60B-ED7392A4BCCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entities\Buildings\Castle">
+      <UniqueIdentifier>{7C0D0330-E825-EA59-B1D2-79F31DAA7EF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entities\Cards">
+      <UniqueIdentifier>{9DC58837-89A9-498D-F209-44E0DE0C340F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entities\Cards\BuildingCards">
+      <UniqueIdentifier>{4790256E-33E1-10B0-5C45-FF7148F5A319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entities\Cards\BuildingCards\Wall">
+      <UniqueIdentifier>{46B4419D-B278-408D-7BDE-7057E761DCC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entities\Cards\StatusCards">
+      <UniqueIdentifier>{9D9D3512-89C3-FF78-7209-85445ECE2445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entities\Units">
+      <UniqueIdentifier>{637BD538-4F5F-968E-B8BF-90E1A4C28010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entities\Units\HpUnits">
+      <UniqueIdentifier>{FD623926-E972-E5F6-522C-4A153E5BD48F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entities\Units\HpUnits\NPCs">
+      <UniqueIdentifier>{C06B0EDD-2C4F-1D1D-3552-4B59A1B4E36D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ResourceManager">
+      <UniqueIdentifier>{3F4EAE55-ABAF-8B63-341D-D215A07DC222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\States">
+      <UniqueIdentifier>{5050442F-3C08-867C-A50F-5FD891E6206D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\States\BattleState">
+      <UniqueIdentifier>{7CB206DE-68AC-2F30-5119-C6403DB2959C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utils">
+      <UniqueIdentifier>{4D9AFFB3-B904-B42A-0243-65D06EEC917F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Mewtle\precompiledHeaders\MewtlePrecompiledHeaders.h">
+      <Filter>Mewtle\precompiledHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Concepts\CardSlot.h">
+      <Filter>src\Concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Concepts\Deck.h">
+      <Filter>src\Concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entities\Buildings\Building.h">
+      <Filter>src\Entities\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entities\Buildings\Castle\Castle.h">
+      <Filter>src\Entities\Buildings\Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entities\Cards\BuildingCards\BuildingCard.h">
+      <Filter>src\Entities\Cards\BuildingCards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entities\Cards\BuildingCards\Wall\CardWall.h">
+      <Filter>src\Entities\Cards\BuildingCards\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entities\Cards\Card.h">
+      <Filter>src\Entities\Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entities\Cards\StatusCards\FortifyCard.h">
+      <Filter>src\Entities\Cards\StatusCards</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entities\Units\HpUnits\HpUnit.h">
+      <Filter>src\Entities\Units\HpUnits</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entities\Units\HpUnits\NPCs\NPC.h">
+      <Filter>src\Entities\Units\HpUnits\NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ResourceManager\ResourceManager.h">
+      <Filter>src\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\States\BattleState\BattleState.h">
+      <Filter>src\States\BattleState</Filter>
+    </ClInclude>
+    <ClInclude Include="src\States\BattleState\BuildPhase.h">
+      <Filter>src\States\BattleState</Filter>
+    </ClInclude>
+    <ClInclude Include="src\States\BattleState\City.h">
+      <Filter>src\States\BattleState</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils\GameUtils.h">
+      <Filter>src\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Mewtle\precompiledHeaders\MewtlePrecompiledHeaders.cpp">
+      <Filter>Mewtle\precompiledHeaders</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPoint.cpp" />
+    <ClCompile Include="src\Concepts\CardSlot.cpp">
+      <Filter>src\Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Concepts\Deck.cpp">
+      <Filter>src\Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entities\Buildings\Building.cpp">
+      <Filter>src\Entities\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entities\Buildings\Castle\Castle.cpp">
+      <Filter>src\Entities\Buildings\Castle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entities\Cards\BuildingCards\BuildingCard.cpp">
+      <Filter>src\Entities\Cards\BuildingCards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entities\Cards\BuildingCards\Wall\CardWall.cpp">
+      <Filter>src\Entities\Cards\BuildingCards\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entities\Cards\Card.cpp">
+      <Filter>src\Entities\Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entities\Cards\StatusCards\FortifyCard.cpp">
+      <Filter>src\Entities\Cards\StatusCards</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entities\Units\HpUnits\HpUnit.cpp">
+      <Filter>src\Entities\Units\HpUnits</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entities\Units\HpUnits\NPCs\NPC.cpp">
+      <Filter>src\Entities\Units\HpUnits\NPCs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager\ResourceManager.cpp">
+      <Filter>src\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\States\BattleState\BattleState.cpp">
+      <Filter>src\States\BattleState</Filter>
+    </ClCompile>
+    <ClCompile Include="src\States\BattleState\BuildPhase.cpp">
+      <Filter>src\States\BattleState</Filter>
+    </ClCompile>
+    <ClCompile Include="src\States\BattleState\City.cpp">
+      <Filter>src\States\BattleState</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils\GameUtils.cpp">
+      <Filter>src\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
