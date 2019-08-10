@@ -14,7 +14,7 @@ private :
 	City* city = nullptr;
 	Mewtle::Entity* target = nullptr;
 	int newPositionX, newPositionY;
-	int steps = 8;
+	int steps = 3;
 	std::vector<Mewtle::MapNode*>* path = nullptr;
 
 	static std::vector<NPC*> npcs;

@@ -22,7 +22,7 @@ void Building::position(City* city, int x, int y, City::ROTATION rotation){
 	this->rotation = rotation;
 	tileX = x;
 	tileY = y;
-	setPlaced(city->alignToGrid(x, y, tileWidth, tileHeight, rotation, this, depth));
+	setPlaced(city->alignToGrid(x, y, tileWidth, tileHeight, rotation, this, getDepth()));
 }
 
 void Building::demolish(){

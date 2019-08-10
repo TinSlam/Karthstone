@@ -8,6 +8,7 @@ public :
 	CardSlot(float, float, float, float, float, float, float, float);
 	~CardSlot();
 
+	static void init();
 	static void initSlots(int);
 
 	float getX(int);

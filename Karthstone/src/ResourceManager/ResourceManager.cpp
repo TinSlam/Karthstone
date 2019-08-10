@@ -25,8 +25,9 @@ int ResourceManager::TEXTURE_TRAIL_ARROW;
 int* ResourceManager::TEXTURE_TILES = new int[9];
 
 void ResourceManager::loadModels(){
-	MODEL_SQUARE = Mewtle::Game::createModel("assets/models/Premade/square.obj");
-	MODEL_CUBE = Mewtle::Game::createModel("assets/models/Premade/block.obj");
+	//MODEL_SQUARE = Mewtle::Game::createModel("assets/models/Premade/square.obj");
+	//MODEL_CUBE = Mewtle::Game::createModel("assets/models/Premade/block.obj");
+	MODEL_CUBE = Mewtle::Game::createModel("assets/models/random_model.obj");
 }
 
 void ResourceManager::loadTextures(){

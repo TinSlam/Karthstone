@@ -3,6 +3,7 @@
 #include "City.h"
 
 #include "ResourceManager/ResourceManager.h"
+#include "Mewtle/ResourceManager/Model/ModelPremade.h"
 #include "Entities/Buildings/Building.h"
 #include "Entities/Units/HpUnits/NPCs/NPC.h"
 
@@ -42,7 +43,7 @@ void City::init(){
 		gridId.push_back(Mewtle::Game::createEntity(Mewtle::Model3D::getModel(ResourceManager::MODEL_SQUARE), Mewtle::Texture::getTexture(ResourceManager::TEXTURE_CITY_GRID), mapXOffset, mapYOffset + i * gridHorGap - gridSize / 2, 0, 0, 0, 0, mapWidth, gridSize, 0));
 	}
 	for(int i = 0; i <= gridHeight; i += 1){
-		gridId.push_back(Mewtle::Game::createEntity(Mewtle::Model3D::getModel(ResourceManager::MODEL_SQUARE), Mewtle::Texture::getTexture(ResourceManager::TEXTURE_CITY_GRID), mapXOffset + i * gridVerGap - gridSize / 2, mapYOffset, 0, 0, 0, 0, gridSize, mapHeight, 0));
+		gridId.push_back(Mewtle::Game::createEntity(Mewtle::Model3D::getModel(Mewtle::ModelPremade::MODEL_SQUARE), Mewtle::Texture::getTexture(ResourceManager::TEXTURE_CITY_GRID), mapXOffset + i * gridVerGap - gridSize / 2, mapYOffset, 0, 0, 0, 0, gridSize, mapHeight, 0));
 	}
 	background = Mewtle::Game::getEntity(backgroundId);
 	for(int i = 0; i < gridWidth + gridHeight + 2; i++){

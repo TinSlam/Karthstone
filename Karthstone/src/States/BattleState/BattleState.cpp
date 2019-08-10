@@ -70,8 +70,8 @@ void BattleState::render(){
 	NPC::renderAll();
 	deck->render();
 	Mewtle::Button::renderAll();
-	//Game::drawAllEntities();
-	//Game::drawAllGuiElements();
+	//Mewtle::Game::drawAllEntities();
+	//Mewtle::Game::drawAllGuiElements();
 }
 
 void BattleState::keyboardInput(){

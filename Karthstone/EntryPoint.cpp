@@ -13,7 +13,7 @@ Mewtle::State* Mewtle::createInitialState(){
 }
 
 void Mewtle::init(){
-
+	CardSlot::init();
 }
 
 void Mewtle::loadModels(){

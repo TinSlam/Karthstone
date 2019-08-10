@@ -35,6 +35,11 @@ CardSlot::~CardSlot(){
 
 }
 
+void CardSlot::init(){
+	drawPileSlot = CardSlot(0, (float) Mewtle::Game::height - 300, 0, (float) Mewtle::Game::height - 300, 200, 300, 0, 0);
+	discardPileSlot = CardSlot((float) Mewtle::Game::width - 200, (float) Mewtle::Game::height - 300, (float) Mewtle::Game::width - 200, (float) Mewtle::Game::height - 300, 200, 300, 0, 0);
+}
+
 void CardSlot::initSlots(int cardNum){
 	float width = 150;
 	float height = 300;
